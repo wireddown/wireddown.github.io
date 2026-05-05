@@ -6,11 +6,11 @@ tags: [github-pages, jekyll, liquid]
 
 Jekyll creates variables for Liquid from three locations:
 
-1. Your site's `_config.yml` file ([read more](http://jekyllrb.com/docs/configuration/))
-1. Other `yml` files in the `_data` folder ([read more](http://jekyllrb.com/docs/structure/))
-1. YAML Front Matter in any other file ([read more](http://jekyllrb.com/docs/frontmatter/))
+1. Your site's `_config.yml` file ([read more](https://jekyllrb.com/docs/configuration/))
+1. Other `yml` files in the `_data` folder ([read more](https://jekyllrb.com/docs/structure/))
+1. YAML Front Matter in any other file ([read more](https://jekyllrb.com/docs/frontmatter/))
 
-Which means in addition to the [standard variables](http://jekyllrb.com/docs/variables/), you can specify your own.
+Which means in addition to the [standard variables](https://jekyllrb.com/docs/variables/), you can specify your own.
 
 ## **Site** Variables
 

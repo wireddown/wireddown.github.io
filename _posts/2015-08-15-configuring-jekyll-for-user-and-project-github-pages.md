@@ -4,9 +4,9 @@ title: Configuring Jekyll for User and Project GitHub Pages
 tags: [github-pages, jekyll]
 ---
 
-You've chosen a [Jekyll theme](http://drjekyllthemes.github.io/) and set it up for your [GitHub **user** page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). It looks great and works well.
+You've chosen a [Jekyll theme](https://drjekyllthemes.github.io/) and set it up for your [GitHub **user** page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). It looks great and works well.
 
-That theme is your favorite and you want to reuse the tweaks you added, so you apply it to your [GitHub **project** pages](https://help.github.com/articles/user-organization-and-project-pages/#project-pages), except there's a small problem: you're seeing a double-slash in the URL after the repository name, like http://you.github.io/your-project//a-post.html.
+That theme is your favorite and you want to reuse the tweaks you added, so you apply it to your [GitHub **project** pages](https://help.github.com/articles/user-organization-and-project-pages/#project-pages), except there's a small problem: you're seeing a double-slash in the URL after the repository name, like https://you.github.io/your-project//a-post.html.
 
 Or maybe there's a much larger problem: many of the in-site links are *broken* and yield a frustrating and confusing 404.
 
@@ -149,22 +149,22 @@ Two reasons:
 
 HTTP supports two kinds of links: absolute and relative. Absolute links have the full and complete URL, while relative links have a [variety of flavors](https://tools.ietf.org/html/rfc1808#section-5). The one that matters for us is the one that starts with a leading slash. When a browser is on a web page, it can assume that the target of a link with a leading slash is on the same host.
 
-For example, assume a page at `http://host.com/folder/page.html` wants to link to `http://host.com/folder/other.html`, then these are equivalent href links:
+For example, assume a page at `https://host.com/folder/page.html` wants to link to `https://host.com/folder/other.html`, then these are equivalent href links:
 
-* `<a href="http://host.com/folder/other.html">Go</a>`
+* `<a href="https://host.com/folder/other.html">Go</a>`
 * `<a href="/folder/other.html">Go</a>`
 
 The browser will navigate to the *same* page when you click on *either* link.
 
 ### Jekyll's rendering behavior
 
-Jekyll adopted this style of in-site linking, and so it uses leading-slash relative links whenever it populates variables like `page.url` (for more information, see my [previous post about exploring Jekyll variables]({{ site.baseurl }}{{ page.previous.url }})). So, when providing your own URL data, like `site.baseurl`, it's important that you use the same pattern. See [Jekyll's documentation for GitHub Pages](http://jekyllrb.com/docs/github-pages/#project-page-url-structure) if you want a second (and identical) opinion.
+Jekyll adopted this style of in-site linking, and so it uses leading-slash relative links whenever it populates variables like `page.url` (for more information, see my [previous post about exploring Jekyll variables]({{ site.baseurl }}{{ page.previous.url }})). So, when providing your own URL data, like `site.baseurl`, it's important that you use the same pattern. See [Jekyll's documentation for GitHub Pages](https://jekyllrb.com/docs/github-pages/#project-page-url-structure) if you want a second (and identical) opinion.
 
 While there is much more behind [HTTP uniform resource locators](https://tools.ietf.org/html/rfc1738#section-3.3) than the simplification below, here are the basic building blocks, with a slightly different delineation so that they match Jekyll variable names.
 
 #### User Page
 
-<tt><strong><span style="color: #fff"><span style="background-color: #859900">&nbsp;http://you.github.io</span><span style="background-color: #6c71c4">/a-post.html&nbsp;</span></span></strong></tt>
+<tt><strong><span style="color: #fff"><span style="background-color: #859900">&nbsp;https://you.github.io</span><span style="background-color: #6c71c4">/a-post.html&nbsp;</span></span></strong></tt>
 
 * <tt><strong><span style="background-color: #859900; color: #fff">&nbsp;site.url&nbsp;</span></strong></tt>
 * <tt><strong><span style="background-color: #6c71c4; color: #fff">&nbsp;page.url&nbsp;</span></strong></tt>
@@ -176,11 +176,11 @@ While there is much more behind [HTTP uniform resource locators](https://tools.i
 </tr>
 <tr>
   <td>Rule 0<br /><em>bare slash</em></td>
-  <td>http://you.github.io//a-post.html</td>
+  <td>https://you.github.io//a-post.html</td>
 </tr>
 <tr>
   <td>Rule 1<br /><em>slash between tags</em></td>
-  <td>http://you.github.io//a-post.html</td>
+  <td>https://you.github.io//a-post.html</td>
 </tr>
 <tr>
   <td>Rule 2<br /><em>missing site.baseurl</em></td>
@@ -203,7 +203,7 @@ Notes:
 
 #### Project Page
 
-<tt><strong><span style="color: #fff"><span style="background-color: #859900">&nbsp;http://you.github.io</span><span style="background-color: #2aa198">/your-project</span><span style="background-color: #6c71c4">/a-post.html&nbsp;</span></span></strong></tt>
+<tt><strong><span style="color: #fff"><span style="background-color: #859900">&nbsp;https://you.github.io</span><span style="background-color: #2aa198">/your-project</span><span style="background-color: #6c71c4">/a-post.html&nbsp;</span></span></strong></tt>
 
 * <tt><strong><span style="background-color: #859900; color: #fff">&nbsp;site.url&nbsp;</span></strong></tt>
 * <tt><strong><span style="background-color: #2aa198; color: #fff">&nbsp;site.baseurl&nbsp;</span></strong></tt>
@@ -216,15 +216,15 @@ Notes:
 </tr>
 <tr>
   <td>Rule 0<br /><em>no leading-slash</em></td>
-  <td>http://you.github.ioyour-project/a-post.html <em>(404)</em></td>
+  <td>https://you.github.ioyour-project/a-post.html <em>(404)</em></td>
 </tr>
 <tr>
   <td>Rule 0<br /><em>trailing-slash</em></td>
-  <td>http://you.github.ioyour-project//a-post.html <em>(404)</em></td>
+  <td>https://you.github.ioyour-project//a-post.html <em>(404)</em></td>
 </tr>
 <tr>
   <td>Rule 1<br /><em>slash between tags</em></td>
-  <td>http://you.github.io/your-project//a-post.html</td>
+  <td>https://you.github.io/your-project//a-post.html</td>
 </tr>
 <tr>
   <td>Rule 2<br /><em>missing site.baseurl</em></td>

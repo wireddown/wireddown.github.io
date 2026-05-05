@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
  * checkbox (no change in URL means no polluted browser history), but this uses
  * `position` for the menu to avoid some potential content reflow issues.
  *
- * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
+ * Source: https://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
  */
 
 /* Style and "hide" the sidebar */
@@ -272,7 +272,7 @@ a.sidebar-nav-item:focus {
  * containing block. Put simply, the fixed sidebar toggle behaves like
  * `position: absolute;` when transformed.
  *
- * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
+ * Read more about it at https://meyerweb.com/eric/thoughts/2011/09/12/.
  */
 
 .wrap,
@@ -439,7 +439,7 @@ a.pagination-item:hover {
  * Themes
  *
  * Apply custom color schemes by adding the appropriate class to the `body`.
- * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
+ * Based on colors from Base16: https://chriskempson.github.io/base16/#default.
  */
 
 /* Red */

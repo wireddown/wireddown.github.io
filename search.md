@@ -6,7 +6,7 @@ title: Search
 <script>
   function SearchDownToTheWire()
   {
-    var url="http://google.com/search?q=site%3A{{ site.url }}+" + document.getElementById("url").value;
+    var url="https://google.com/search?q=site%3A{{ site.url }}+" + document.getElementById("url").value;
     location.href=url;
     return false;
   }

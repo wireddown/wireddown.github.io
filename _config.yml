@@ -8,7 +8,7 @@ show_drafts:         false
 title:               Down to the Wire
 tagline:             Elements of LabVIEW
 description:         'A blog by <a href="https://twitter.com/JoeFriedrichsen" target="_blank">@JoeFriedrichsen</a>.'
-url:                 http://downtothewire.io
+url:                 https://downtothewire.io
 baseurl:             ''
 
 # About/contact
@@ -20,4 +20,4 @@ author:
 # Custom data
 established:         2014
 license:             CC BY 4.0
-license_url:         http://creativecommons.org/licenses/by/4.0/legalcode
+license_url:         https://creativecommons.org/licenses/by/4.0/legalcode
