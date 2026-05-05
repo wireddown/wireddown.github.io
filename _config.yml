@@ -6,7 +6,7 @@ exclude:             [CNAME, Gemfile, README.md, LICENSE.md, scratch.md]
 unpublished:         true
 show_drafts:         false
 title:               Down to the Wire
-tagline:             Elements of LabVIEW
+tagline:             Elements of Data Acquisition
 description:         'A blog by Joe Friedrichsen'
 url:                 https://downtothewire.io
 baseurl:             ''

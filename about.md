@@ -7,7 +7,7 @@ It's not what we make, it's what we make possible.
 
 ## Focus
 
-* Application programming in LabVIEW
+* Application programming in LabVIEW and Python
 * Interaction and visual design
 * Circuit design and debugging with VirtualBench
 
