@@ -7,14 +7,14 @@ unpublished:         true
 show_drafts:         false
 title:               Down to the Wire
 tagline:             Elements of LabVIEW
-description:         'A blog by <a href="https://twitter.com/JoeFriedrichsen" target="_blank">@JoeFriedrichsen</a>.'
+description:         'A blog by Joe Friedrichsen'
 url:                 https://downtothewire.io
 baseurl:             ''
 
 # About/contact
 author:
   name:              Joe Friedrichsen
-  url:               https://twitter.com/JoeFriedrichsen
+  url:               https://github.com/wireddown
   email:             all.wired.down@gmail.com
 
 # Custom data

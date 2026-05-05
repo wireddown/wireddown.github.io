@@ -4,9 +4,9 @@ title: Configuring Jekyll for User and Project GitHub Pages
 tags: [github-pages, jekyll]
 ---
 
-You've chosen a [Jekyll theme](https://drjekyllthemes.github.io/) and set it up for your [GitHub **user** page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). It looks great and works well.
+You've chosen a [Jekyll theme](https://drjekyllthemes.github.io/) and set it up for your [GitHub **user** page](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#types-of-github-pages-sites). It looks great and works well.
 
-That theme is your favorite and you want to reuse the tweaks you added, so you apply it to your [GitHub **project** pages](https://help.github.com/articles/user-organization-and-project-pages/#project-pages), except there's a small problem: you're seeing a double-slash in the URL after the repository name, like https://you.github.io/your-project//a-post.html.
+That theme is your favorite and you want to reuse the tweaks you added, so you apply it to your GitHub **project** pages, except there's a small problem: you're seeing a double-slash in the URL after the repository name, like https://you.github.io/your-project//a-post.html.
 
 Or maybe there's a much larger problem: many of the in-site links are *broken* and yield a frustrating and confusing 404.
 

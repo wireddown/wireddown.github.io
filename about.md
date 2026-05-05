@@ -11,13 +11,6 @@ It's not what we make, it's what we make possible.
 * Interaction and visual design
 * Circuit design and debugging with VirtualBench
 
-## Elsewhere
-
-* [Twitter](https://twitter.com/wireddown)
-* [GitHub](https://github.com/wireddown)
-* [Stack Overflow](https://stackoverflow.com/users/616838/joe-friedrichsen)
-* [Trello](https://trello.com/wireddown)
-
 ## Colophon
 
 * Generator: [Jekyll](https://jekyllrb.com/)
