@@ -1,0 +1,53 @@
+body {
+  padding: 3rem;
+}
+
+$scanLineWidth: 3px;
+
+main {
+  position: unset;
+  top: unset;
+  left: unset;
+  transform: unset;
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
+
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+
+  border-radius: 18px;
+  border: 0.5rem outset var(--oc-gray-8);
+  outline: 0.5rem solid var(--oc-gray-7);
+  outline-offset: 0.5rem;
+
+  /** Scanlines -- WebKit **/
+  background: -webkit-repeating-linear-gradient(
+    top,
+    transparent 0px,
+    transparent $scanLineWidth,
+    rgba(90,80,0,0.35) $scanLineWidth,
+    rgba(0,0,0,0.35) $scanLineWidth*2
+  );
+  -webkit-background-size: 100% $scanLineWidth*2;
+
+  /** Mozilla **/
+  background: -moz-repeating-linear-gradient(
+    top,
+    transparent 0px,
+    transparent $scanLineWidth,
+    rgba(90,80,0,0.35) $scanLineWidth,
+    rgba(0,0,0,0.35) $scanLineWidth*2
+  );
+  -moz-background-size: 100% $scanLineWidth*2;
+}
+
+.my {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem; }
+
+h1,
+p {
+  margin: 4px; }

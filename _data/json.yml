@@ -1,31 +1,48 @@
-- key: identify
+- key: status
+  value:
+    - (╯°□°）╯︵ ┻━┻
+    - (ヘ･_･)ヘ┳━┳
+    - ¯\_(ツ)_/¯
+    - (•_•)
+    - ( •_•)>⌐■-■
+    - (⌐■_■)
+    - (⌐■σ■)ノ ♪
+    - ᓚᘏᗢ ♪ ♪
+  typed: true
+- key: handles
   value:
     - key: name
       value: joe friedrichsen
-    - key: alias
+    - key: site
+      value: downtothewire.io
+      url: https://downtothewire.io
+    - key: github
       value: wireddown
-- key: cypher
-  value:
-    - ⪧⫣⨁⌂⪧∅⁋⫩⫳∅⨷Ϟ⫣▶⩎⫳⩍⨸⩍↺⨸
-    - ⫳⩍⨸⩍↺⨸⫣▶⪧⫣⨁⨷Ϟ⩎⌂⪧∅⁋⫩⫳∅
-    - ∅⁋⫩⫳⩍⨸⩍↺⪧⨷Ϟ⩎⫣⨁⌂⪧⨸⫣▶⫳∅
-  typed: true
-- key: sites
-  value:
-    - value: qtpy-datalogger
-      url: https://downtothewire.io/qtpy-datalogger/
-    - value: ghpages-ghcomments
-      url: https://downtothewire.io/ghpages-ghcomments/
-    - value: blog
-      url: https://downtothewire.io/blog/
-- key: profiles
-  value:
-    - value: github
       url: https://github.com/wireddown
-    - value: linkedin
-      url: https://www.linkedin.com/in/joefriedchicken/
-- key: contact
-  value:
     - key: email
       value: all.wired.down@gmail.com
       url: "mailto:all.wired.down@gmail.com"
+- key: pages
+  value:
+    - value: blog
+      url: https://downtothewire.io/blog/
+    - value: dayjob
+      url: https://github.com/jfriedri-ni
+    - value: linkedin
+      url: https://linkedin.com/in/joefriedchicken/
+- key: projects
+  value:
+    - value: qtpy-datalogger
+      url: https://downtothewire.io/qtpy-datalogger/
+    - value: lv-daq-app-template
+      url: https://github.com/wireddown/lv-daq-app-template
+    - value: ghpages-ghcomments
+      url: https://downtothewire.io/ghpages-ghcomments/
+    - value: InstrumentStudio
+      url: https://www.ni.com/instrumentstudio
+    - value: VirtualBench
+      url: https://forums.ni.com/t5/VirtualBench/Announcing-NI-VB-8034-new-VirtualBench-model-with-a-350-MHz-4/m-p/3245827/highlight/true#M959
+    - value: Yaizu Suisan
+      url: https://archive.org/details/Yaizu_Suisan/
+    - value: Shizuocha
+      url: https://archive.org/details/Shizuocha/

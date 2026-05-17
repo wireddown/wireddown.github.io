@@ -1,17 +1,17 @@
+# Setup
+title:               Down to the Wire
+description:         A site by Joe Friedrichsen
+url:                 https://downtothewire.io
+baseurl:             ''
+exclude:             [CNAME, Gemfile, README.md, LICENSE]
+
 # Colors
 theme:               hacked-jekyll
 color_bg:            gray-9
-color_punct:         yellow-9
+color_punct:         gray-6
 color_key:           yellow-4
 color_value:         yellow-4
-color_hover:         yellow-6
-
-# Setup
-title:               Down to the Wire
-description:         A blog by Joe Friedrichsen
-url:                 https://downtothewire.io
-baseurl:             ''
-exclude:             [CNAME, Gemfile, README.md, LICENSE.md, scratch.md, vendor/]
+color_hover:         violet-4
 
 plugins:
   - jekyll-seo-tag
