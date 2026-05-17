@@ -1,0 +1,31 @@
+- key: identify
+  value:
+    - key: name
+      value: joe friedrichsen
+    - key: alias
+      value: wireddown
+- key: cypher
+  value:
+    - ⪧⫣⨁⌂⪧∅⁋⫩⫳∅⨷Ϟ⫣▶⩎⫳⩍⨸⩍↺⨸
+    - ⫳⩍⨸⩍↺⨸⫣▶⪧⫣⨁⨷Ϟ⩎⌂⪧∅⁋⫩⫳∅
+    - ∅⁋⫩⫳⩍⨸⩍↺⪧⨷Ϟ⩎⫣⨁⌂⪧⨸⫣▶⫳∅
+  typed: true
+- key: sites
+  value:
+    - value: qtpy-datalogger
+      url: https://downtothewire.io/qtpy-datalogger/
+    - value: ghpages-ghcomments
+      url: https://downtothewire.io/ghpages-ghcomments/
+    - value: blog
+      url: https://downtothewire.io/blog/
+- key: profiles
+  value:
+    - value: github
+      url: https://github.com/wireddown
+    - value: linkedin
+      url: https://www.linkedin.com/in/joefriedchicken/
+- key: contact
+  value:
+    - key: email
+      value: all.wired.down@gmail.com
+      url: "mailto:all.wired.down@gmail.com"

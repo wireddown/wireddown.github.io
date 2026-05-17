@@ -1,12 +1,10 @@
-# Down to the Wire
+<h1 style="display: flex; text-align: center;">
+  <img src="assets/favicon-32x32.png" width="32" height="32" />
+  <div style="margin-top: -6px; margin-left: 9px;">Down to the Wire</div>
+</h1>
 
-This repository represents and hosts my blog: [downtothewire.io](https://downtothewire.io).
+This repository represents and hosts my home page [downtothewire.io](https://downtothewire.io)
 
 # License
 
-The following directories and their contents are Copyright Joe Friedrichsen and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
-
-    _posts/
-    images/
-
-All other directories and files are [MIT Licensed](https://github.com/wireddown/wireddown.github.io/blob/master/LICENSE.md) since they are forked from [Lanyon](https://github.com/poole/lanyon), an unassuming [Jekyll](https://jekyllrb.com/) theme.
+The site customizes [hacked-jekyll](https://github.com/piazzai/hacked-jekyll), which is [MIT Licensed](https://github.com/piazzai/hacked-jekyll/blob/master/LICENSE), and uses the [same license](https://github.com/wireddown/wireddown.github.io/blob/master/LICENSE).

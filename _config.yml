@@ -1,23 +1,21 @@
-# Permalinks
-permalink:           pretty
+# Colors
+theme:               hacked-jekyll
+color_bg:            gray-9
+color_punct:         yellow-9
+color_key:           yellow-4
+color_value:         yellow-4
+color_hover:         yellow-6
 
 # Setup
-exclude:             [CNAME, Gemfile, README.md, LICENSE.md, scratch.md]
-unpublished:         true
-show_drafts:         false
 title:               Down to the Wire
-tagline:             Elements of Data Acquisition
-description:         'A blog by Joe Friedrichsen'
+description:         A blog by Joe Friedrichsen
 url:                 https://downtothewire.io
 baseurl:             ''
+exclude:             [CNAME, Gemfile, README.md, LICENSE.md, scratch.md, vendor/]
 
-# About/contact
-author:
-  name:              Joe Friedrichsen
-  url:               https://github.com/wireddown
-  email:             all.wired.down@gmail.com
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Custom data
-established:         2014
-license:             CC BY 4.0
-license_url:         https://creativecommons.org/licenses/by/4.0/legalcode
+sass:
+  sourcemap: never
