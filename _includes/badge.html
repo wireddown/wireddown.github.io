@@ -1,0 +1,13 @@
+<div id="badge" style="
+  background-color: var(--{{ site.data.badge.background }});
+  border: 5px solid var(--{{ site.data.badge.border }});
+  border-radius: 4px;
+  position: absolute;
+  top: 1.5rem;
+  left: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: 600;
+">
+  <p>{% for word in site.data.badge.words %}<span style="color: var(--{{ word.color }})">{{ word.value }}</span>{% endfor %}</p>
+</div>
