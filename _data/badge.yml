@@ -1,0 +1,13 @@
+background: oc-gray-9
+border: oc-gray-7
+words:
+  - value: down
+    color: oc-yellow-4
+  - value: to
+    color: oc-yellow-3
+  - value: the
+    color: oc-yellow-2
+  - value: wire
+    color: oc-yellow-1
+  - value: .io
+    color: oc-gray-2
