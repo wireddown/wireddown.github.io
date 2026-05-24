@@ -282,6 +282,8 @@ PLATFORMS
 
 DEPENDENCIES
   hacked-jekyll
+  jekyll (>= 3.10.0, < 4.0.0)
+  jekyll-redirect-from
 
 BUNDLED WITH
    2.6.9
