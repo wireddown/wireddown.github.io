@@ -3,6 +3,8 @@ title:               Down to the Wire
 description:         A site by Joe Friedrichsen
 url:                 https://downtothewire.io
 baseurl:             ''
+permalink:           pretty
+livereload:          true
 exclude:             [CNAME, Gemfile, README.md, LICENSE]
 
 # Colors
@@ -16,6 +18,7 @@ color_hover:         violet-4
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 sass:
   sourcemap: never
