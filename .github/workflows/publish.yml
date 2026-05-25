@@ -19,7 +19,7 @@ jobs:
   build:
     name: Build site
     runs-on: windows-latest
-    environment:
+    env:
       BUNDLE_FROZEN: true
     steps:
     - name: Get source code
