@@ -8,16 +8,19 @@ on:
         required: false
         type: boolean
   push:
-    branches: ["main"]
+    branches:
+      - 'main'
 
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: false
 
 jobs:
   build:
     name: Build site
     runs-on: windows-latest
+    environment:
+      BUNDLE_FROZEN: true
     steps:
     - name: Get source code
       uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
