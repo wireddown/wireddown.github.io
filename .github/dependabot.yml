@@ -10,3 +10,11 @@ updates:
     cooldown:
       default-days: 10
     open-pull-requests-limit: 100
+
+  - package-ecosystem: 'bundler'
+    directory: '/'
+    schedule:
+      interval: 'monthly'
+    cooldown:
+      default-days: 10
+    open-pull-requests-limit: 100
