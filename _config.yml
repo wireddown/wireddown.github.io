@@ -8,7 +8,7 @@ livereload:          true
 exclude:             [CNAME, Gemfile, README.md, LICENSE]
 
 # Colors
-theme:               hacked-jekyll
+remote_theme:        piazzai/hacked-jekyll
 color_bg:            gray-9
 color_punct:         gray-6
 color_key:           yellow-4
@@ -19,6 +19,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-remote-theme
 
 sass:
   sourcemap: never
