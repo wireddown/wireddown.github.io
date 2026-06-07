@@ -42,6 +42,8 @@
       url: https://www.ni.com/instrumentstudio
     - value: VirtualBench
       url: https://forums.ni.com/t5/VirtualBench/Announcing-NI-VB-8034-new-VirtualBench-model-with-a-350-MHz-4/m-p/3245827/highlight/true#M959
+    - value: Patent US9106474
+      url: https://patents.google.com/patent/US9106474
     - value: Yaizu Suisan
       url: https://archive.org/details/Yaizu_Suisan/
     - value: Shizuocha
