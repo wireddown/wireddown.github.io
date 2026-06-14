@@ -1,6 +1,6 @@
 <h1 style="display: flex; text-align: center;">
   <img src="assets/favicon-32x32.png" width="32" height="32" />
-  <div style="margin-top: -6px; margin-left: 9px;">Down to the Wire</div>
+  <span style="margin-top: -6px; margin-left: 9px;">Down to the Wire</span>
 </h1>
 
 This repository represents and hosts my home page [downtothewire.io](https://downtothewire.io)
